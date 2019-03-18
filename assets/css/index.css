@@ -1,0 +1,21 @@
+p{
+    width:50%;
+    float:right;
+    padding: 50px;
+}
+
+img{
+    position: fixed; left: 25%;
+    float: none;
+
+}
+
+section{
+    width: 960px;
+    height:400px; 
+    background-color:#ffffff;
+    border-color: #dddddd;
+    float:left;
+    margin-left: 25%;
+    margin-top: -125px;
+}

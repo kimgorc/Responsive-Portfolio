@@ -1,0 +1,79 @@
+body {
+    color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    height:100%;
+    background-image: url(../images/white-waves/white-waves.png);
+    position: relative; bottom: -250px;
+}
+
+
+
+header {
+    position: fixed;
+    left: -50;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    border-color: lightslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto 0 auto;
+    
+    
+}
+
+h1{
+  background-color: #4aaaa5;
+  width: 250px;
+  height: 75px;
+  margin: 10px;
+  text-align:center; 
+  color: #ffffff;
+  position:fixed;
+  left: 17%;
+  top: 35px;
+  padding-top: 25px;
+ 
+}
+
+h2{
+  border-bottom:3px solid #CCC;
+  padding-top: 10px;
+  padding-bottom:15px;  
+  padding-left: 15px;
+  color: #4aaaa5;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  float:right;
+  color:#777777;
+  position:relative;
+  left: -15%;
+  top: 55px;
+  
+}
+
+li {
+  float: left;
+  margin:10px;
+}
+
+footer{
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    border-bottom: 20px solid #666666;
+    color: ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    }
+
+
+

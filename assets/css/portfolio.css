@@ -1,0 +1,49 @@
+section{
+  width: 960px;
+  height:600px; 
+  margin-left: 25%;
+  margin-top: -125px;
+  background-color:#ffffff;
+  border-color: #dddddd;
+  float:left;
+}
+
+
+.box {
+    position: relative;
+    float:left;
+    background-color: #4aaaa5;
+    width: 150px;
+    height: 25px;
+    color:#ffffff;
+  }
+  
+  .box-1 {
+    top: 0px;
+    left:0px;
+  }
+  
+  .box-2 {
+    top: -15x;
+    left: 25px;
+    height: 36px;
+  }
+  
+  .box-3 {
+    top: 250px;
+    left: -460px;
+   
+  }
+  
+  .box-4 {
+    top: 250px;
+    left: -435px;
+ 
+  }
+
+  .box-5 {
+    top: -55px;
+    left: 30px;
+    
+  }
+  
