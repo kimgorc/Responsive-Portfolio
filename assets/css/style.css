@@ -75,5 +75,55 @@ footer{
     text-align: center;
     }
 
+    @media screen and (max-width: 768px) {
+      
+      /* The wrapper's width will be 600px */
+      .wrapper {
+        width: 600px;
+      }
 
+      #main-content,
+      #sidebar {
+        width: 100%;
+      }
+    
+      #sidebar {
+        margin-top: 40px;
+      }
+    
+    }
+    @media screen and (max-width: 320px) {
+    
+      .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+      }
+    
+      #main-content,
+      #sidebar {
+        width: 100%;
+      }
+    
+      #sidebar {
+        margin-top: 40px;
+      }
+    }
+    @media screen and (max-width: 168px) {
+    
+      .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+      }
+    
+      #main-content,
+      #sidebar {
+        width: 100%;
+      }
+    
+      #sidebar {
+        margin-top: 40px;
+      }
+  }
 
