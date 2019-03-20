@@ -1,21 +1,19 @@
-section {
+section{
    width: 960px;
-   height:500px; 
-   margin-left: 25%;
-   margin-top: -125px;
+   height:100%; 
    background-color:#ffffff;
    border-color: #dddddd;
-  
+   float:left;
+   margin-left: 25%;
+   margin-top: -125px;
 }
 
 img{
-   position:relative;
-   float: right;
-   top: -250px;
-   left: -75px;
+   position: relative; 
+   margin: 30px;
+   max-width: 250px;
+   float:right;
 }
 
-form{
-   padding-left:15px;
-   
-}
+
+

@@ -1,13 +1,14 @@
 p{
     width:50%;
-    float:right;
+    float:left;
     padding: 50px;
 }
 
 img{
-    position: fixed; left: 25%;
-    float: none;
-
+    position: relative; 
+    margin: 30px;
+    max-width: 250px;
+    float:left;
 }
 
 section{
