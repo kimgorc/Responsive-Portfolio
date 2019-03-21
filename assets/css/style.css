@@ -9,8 +9,6 @@ body {
     left: 15%;
 }
 
-
-
 header {
     position: fixed;
     left: 0;
@@ -29,7 +27,7 @@ h1{
   height: 75px;
   text-align:center; 
   color: #ffffff;
-  position:fixed;
+  position:relative;
   left: 17%;
   top: -22px;
   padding-top: 25px;
@@ -74,12 +72,23 @@ footer{
     text-align: center;
     }
 
+
     @media screen and (max-width: 980px) {
-      
+      h1{
+        position:relative;
+        right: 500px;
+      }
+      ul{
+        position:relative;
+        top:-75px;
+        right:500px;
+      }
       /* The wrapper's width will be 600px */
       .wrapper {
         width: 600px;
         height:100%;
+        position: relative;
+        right:350px;
       }
       
       #section {
@@ -101,11 +110,11 @@ footer{
       }
     }
     @media screen and (max-width: 768px) {
-    
+   
       .wrapper {
         /* Box-model */
         width: 100%;
-        padding: 20px;
+        
       }
     
       #section {
@@ -127,11 +136,10 @@ footer{
       }
     }
     @media screen and (max-width: 640px) {
-    
+
       .wrapper {
         /* Box-model */
         width: 100%;
-        padding: 20px;
       }
     
       #section {
@@ -144,11 +152,11 @@ footer{
         display: inline-block;
         }
 
-      #contactimg{
+      #contacting{
         display: none;
       }  
       .column {
-        flex: 100%;
-        max-width: 100%; 
+        flex: 33.33%;
+        max-width: 33.33%; 
        } 
     }
